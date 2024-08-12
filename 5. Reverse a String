@@ -1,0 +1,9 @@
+Code :
+def reverse_string(s):
+    reversed_s = ""
+    for char in s:
+        reversed_s = char + reversed_s
+    return reversed_s
+input_string = "hello"
+print(reverse_string(input_string))  
+ Output: "olleh"
